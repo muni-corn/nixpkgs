@@ -30,7 +30,7 @@ python3Packages.buildPythonApplication rec {
 
   meta = {
     description = "Client component of timewarrior synchronization application";
-    mainProgram = "timew-sync-client";
+    mainProgram = "timewsync";
     homepage = "https://github.com/timewarrior-synchronize/timew-sync-client";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [
